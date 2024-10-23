@@ -13,23 +13,20 @@
     display: flex;
 }
 
-.top-menu li {
+.pro_anime li {
     display: flex;
     background-color:hotpink;
     height: 55px;
-    align-items: center;
     margin: 0 auto;
     list-style: none;
     width: 100%;
 }
 
-.top-menu a{
+.pro_anime a{
     color:white;
     text-decoration: none;
-}
- 
-.backround{
-width: 80px;
+    display: flex;
+    text-align: center;
 }
 
 .backround h1{
