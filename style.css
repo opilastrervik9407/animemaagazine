@@ -13,26 +13,34 @@
     display: flex;
 }
 
-.pro_anime li {
+.top-menu{
     display: flex;
-    background-color:hotpink;
-    height: 55px;
-    margin: 0 auto;
     list-style: none;
-    width: 100%;
+    background-color: hotpink;
+    height: 55px;
+    align-items: center;
 }
 
-.pro_anime a{
-    color:white;
+.top-menu a{
     text-decoration: none;
-    display: flex;
+    color: white;
+}
+
+.backround { 
+    padding-top: 200px;
+    background: url(../img/oboi_88191-10_anime_ateliero.webp);
+    width: 100%;
     text-align: center;
+    padding: 60px 0;
+    opacity: 0.302;
 }
 
-.backround h1{
-margin-top: 20px;
-margin-bottom: 20px;
-display: flex;
-justify-content: center;
+.backround h1 {
+    display: flex;
+    justify-content: center;
+    color: hotpink;
 }
 
+ .backround p{
+    color: hotpink;
+ }
