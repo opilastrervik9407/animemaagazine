@@ -44,3 +44,12 @@
  .backround p{
     color: hotpink;
  }
+
+ .top-menu a:hover{
+    color: chartreuse;
+ }
+
+ .content img{
+    display: flex;
+    justify-content: center;
+ }
