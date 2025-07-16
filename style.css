@@ -1,55 +1,549 @@
-*{
-    margin: 0 auto;
-    padding: 0;
+@media (max-width: 768px) {
+  .top-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .backround {
+    font-size: 14px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/oboi_88191-10_anime_ateliero.webp) 100%;
 }
 
 .wrapper {
-    max-width: 960px;
-    margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .flex-between {
-    justify-content: space-between;
-    display: flex;
+  justify-content: space-between;
+  display: flex;
 }
 
-.top-menu{
-    display: flex;
-    list-style: none;
-    background-color: hotpink;
-    height: 55px;
-    align-items: center;
+.top-menu {
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+  height: 55px;
+  align-items: center;
 }
 
-.top-menu a{
-    text-decoration: none;
-    color: white;
+.top-menu a {
+  text-decoration: none;
+  color: white;
 }
 
-.backround { 
-    padding-top: 200px;
-    background: url(../img/oboi_88191-10_anime_ateliero.webp);
-    width: 100%;
-    text-align: center;
-    padding: 60px 0;
-    opacity: 0.302;
+.top-menu p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.backround {
+  padding-top: 200px;
+  background: url(../img/oboi_88191-10_anime_ateliero.webp);
+  width: 100%;
+  opacity: 70%;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
 .backround h1 {
-    display: flex;
-    justify-content: center;
-    color: hotpink;
+  padding-bottom: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: hotpink;
 }
 
- .backround p{
-    color: hotpink;
- }
+.backround p {
+  padding-top: 50px;
+  display: flex;
+  color: hotpink;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
- .top-menu a:hover{
-    color: chartreuse;
- }
+.content img {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
- .content img{
-    display: flex;
-    justify-content: center;
- }
+
+.backround {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  background: url(../img/oboi_88191-10_anime_ateliero.webp) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.backround img {
+  display: flex;
+  height: 200px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+
+.top-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ff69b4;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+
+.menu_li {
+  display: flex;
+  border: #fff 2px solid;
+  border-radius: 22px;
+  text-align: center;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.pro-compania:hover {
+  color: #863C61;
+}
+
+
+.menu_li a {
+  padding: 10px;
+}
+
+.top-menu li > a:hover {
+  color: #863C61;
+  border-radius: 10px;
+}
+
+.text a:hover {
+  color: #fff;
+}
+
+.photo_menu img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.top-menu li.text a:hover {
+  color: #fff;
+}
+
+.top-menu li.pro-compania a:hover {
+  color: #863C61;
+}
+
+.top-menu li a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.figcaption_img img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 330px;
+  padding: 5px;
+  background-color: #ff69b4;
+  height: 230px;
+}
+
+.product-title {
+  overflow: hidden;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 390px;
+  width: 250px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  background-color: #fff;
+  border: 2px solid hotpink;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.backround {
+  background: url(../img/oboi_88191-10_anime_ateliero.webp) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.avatar {
+  height: 55px;
+  margin-left: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+
+.photo {
+  padding-right: 30px;
+}
+
+.info-container h1 {
+  color: hotpink;
+}
+
+.info-container p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.main-menu {
+  background-color: hotpink;
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.product-card {
+  position: relative;
+}
+
+.stiker img {
+  border-radius: 15px;
+}
+
+.discount-sticker {
+  position: absolute;
+  padding: 70px;
+  top: -99px;
+  right: 115px;
+  height: auto;
+  z-index: 0;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-title {
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.product-price {
+  font-size: 22px;
+  color: #d60000;
+  font-weight: 100px;
+  margin-bottom: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 5px;
+}
+
+.save {
+  color: green;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.buy_tovar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff69b4;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px 16px;
+  margin: 0 auto;
+  width: auto;
+  min-width: 120px;
+  max-width: 140px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.buy_tovar:hover {
+  background-color: #fff;
+  color: #ff69b4;
+  border: 2px solid #ff69b4;
+}
+
+.content {
+  margin: 0 120px;
+}
+
+.figure {
+  display: block;
+}
+
+figure.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.tovaru_ua:hover {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.servikitu_ua {
+  display: flex;
+  align-items: center;
+}
+
+.buy_now {
+  margin-bottom: 20px;
+}
+
+.servikitu_ua img {
+  width: 870px;
+}
+
+.servikitu_ua {
+  display: flex;
+  align-items: center;
+  padding-left: 270px;
+  background: url(../animemaagazine/img/nezuko.png);
+  padding-bottom: 15px;
+}
+
+.tovaru_ua {
+  text-align: center;
+  margin-top: 5px;
+  width: 172px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 600px;
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 10px;
+  border: #ff69b4 2px solid;
+  border-radius: 31px;
+  margin-bottom: 15px;
+}
+
+.tovaru_ua:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.5s ease;
+  color: #ff69b4;
+  border-radius: 31px;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #ff69b4;
+  /* рожевий */
+  color: white;
+  padding: 30px 15px;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-menu {
+  margin-left: 250px;
+}
+
+.footer-menu li {
+  margin: 10px 0;
+  font-weight: bold;
+  list-style: none;
+  padding: 6px;
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.avatar-ua {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.photo_menu {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.photo_menu img {
+  width: 24px;
+  height: 24px;
+  margin: 5px 0;
+}
+
+.Holovna_ua {
+  padding-right: 100px;
+}
+
+.Holovna_ua img {
+  width: 32px;
+}
+
+.contacts-ua {
+  max-width: 250px;
+  margin-top: 30px;
+}
+
+.contacts-ua p {
+  margin: 5px 0;
+}
+
+.contacts-ua a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contacts-ua a:hover {
+  text-decoration: underline;
+}
+
+.contacts-ua img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.hrafik-ua p {
+  margin: 10px 0;
+}
+
+.hrafik-ua {
+  margin-right: 210px;
+}
+
+.hrafik-robota {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.photo_menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.polituka a {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.polituka:hover {
+  text-decoration: underline;
+}
+
+.photo_menu img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.photo_menu img:hover {
+  transform: scale(1.1);
+}
+
+.bigger {
+  padding-top: 30px;
+}
